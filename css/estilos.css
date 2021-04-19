@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background: #F2EDED;
+    margin: 0;
+}
+.c_prin{
+    background: #4151E7;
+}
+.inicio {
+    width: 100%;
+    height: 82vh;
+    
+}
+.c_todos {
+    width: 100%;
+    height: 16vh;
+    
+}
+.n_inicio {
+    width: 100%;
+    height: 55vh;
+    
+}
+
+.titulo1 {
+    position: absolute;
+    top: 20%;
+    font-size: 4vh;
+    font-weight:lighter;
+    color: #D9D9D9;
+    left: 7vh;
+    
+    
+}
+.titulo1t {
+    position: relative;
+    top: -20vh;
+    font-size: 8vh;
+    font-weight:lighter;
+    color: #D9D9D9;
+    left: 150vh;
+    
+    
+}
+.titulo1tt {
+    position: relative;
+    top: -20vh;
+    font-size: 8vh;
+    font-weight:lighter;
+    color: #D9D9D9;
+    left: 115vh;
+    
+    
+}
+.titulo12 {
+    position: absolute;
+    top: 20%;
+    font-size: 3vh;
+    font-weight:lighter;
+    color: #D9D9D9;
+    left: 0vh;
+    
+    
+}
+.titulo32 {
+    position: absolute;
+    top: 20%;
+    font-size: 3vh;
+    font-family:'Roboto', sans-serif;
+    color: #D9D9D9;
+    left: 0vh;
+    
+    
+    
+}
+.titulo39 {
+    position: relative;
+    top: 39vh;
+    font-size: 2.5vh;
+    font-family:'Roboto', sans-serif;
+    color: #D9D9D9;
+    left: 10vh;
+    
+    
+    
+}
+.titulo33 {
+    position: absolute;
+    top: 7vh;
+    font-size: 2.5vh;
+    font-weight:lighter;
+    color: #D9D9D9;
+    left: 10vh;
+    
+    
+    
+}
+
+.caja_texto {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+.caja_texto1 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+}
+.caja_texto5 {
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    width: 130vh;
+    font-weight: bold;
+    
+
+}
+
+.titulo2 {
+   position: relative;
+    font-weight:bold;
+    top: 9vh;
+    left: 2vh;
+    font-size: 4vh;
+    color: #D9D9D9;
+    
+     
+}
+
+.c_botones {
+    position: absolute;
+    top: 20vh;
+    left: 39vh;
+}
+
+.t_sec1 {
+    color: #D6D3D3;
+    font-size: 10vh;
+    position: relative;
+    top: 20px;
+    left: 4vh;
+    border-bottom: .5px solid #9E9E9E;
+}
+
+.t_sec2 {
+    color: #D6D3D3;
+    font-size: 10vh;
+    position: relative;
+    top: 20px;
+    left: 99vh;
+    border-bottom: .5px solid #9E9E9E;
+}
+
+.c_img {
+   
+    position: relative;
+    top: 7vh;
+    width: 94%;
+    left: 8vh;
+    height: 70vh;
+}
+
+.impt {
+    background: white;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.c1p {
+    position: absolute;
+    top: 10vh;
+    left: 90px;
+    text-align: center;
+    
+}
+
+.p1i {
+    color: #707070;
+    font-size: 17px;
+    
+}
+
+
+
+.c2p {
+    position: absolute;
+    top: 10vh;
+    left: 500px;
+    text-align: center;
+}
+.c3p {
+    position: absolute;
+    top: 10vh;
+    left: 850px;
+    text-align: center;
+}
+
+.contacto {
+    background: white;
+    height: 45vh;
+    
+}
+
+.c_contacto {
+    text-align: center;
+
+    width: 50vh;
+    height: 100%;
+    position: relative;
+    left: 20vh;
+    color: white;
+}
+
+.text1 {
+    position: relative;
+    top: 7vh;
+    
+    
+}
+
+.text2 {
+    position: relative;
+    top: 30px;
+}
+
+.footer {
+    height: 20vh;
+}
+
+.titulo_nosotros {
+    position: absolute;
+    width: 29vh;
+    top: 15vh;
+    font-size: 3vh;
+    font-family:'Roboto',sans-serif;
+    color: white;
+}
+
+.scn1 {
+    position: relative;
+   
+}
+
+.scnn1 {
+    width: 100;
+    height: 80vh;
+}
+
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+
+button {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: transparent;
+  border: 2px solid #707070;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+    font-family: 'Roboto',sans-serif;
+    font-weight: lighter;
+}
+button:hover {
+  color: white;
+  background: #9E9E9E;
+}
+button:active {
+  letter-spacing: 2px;
+}
+
+
+.onclic {
+  width: 40px;
+  border-color: #bbbbbb;
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: #1ECD97;
+  -webkit-animation: rotating 2s 0.25s linear infinite;
+          animation: rotating 2s 0.25s linear infinite;
+}
+.onclic:after {
+  content: "";
+}
+.onclic:hover {
+  color: #1ECD97;
+  background: white;
+}
