@@ -186,6 +186,16 @@ height: 70vh;
     
 }
 
+.c1p2 {
+position: absolute;
+top: 3vh;
+left: 53vh;
+text-align: center;
+
+}
+
+
+
 .p1i {
     color: #707070;
     font-size: 17px;
@@ -1941,4 +1951,48 @@ input:-webkit-autofill {
 
 .c_form2 {
     
+}
+
+.c1p3 {
+    position: absolute;
+top: -67vh;
+left: 107vh;
+text-align: center;
+}
+}
+
+span .mieltext{
+position: relative;
+right: 20vh;
+font-family: 'Roboto';
+color: gray;
+text-align: center;
+font-weight: bold;
+}
+
+
+
+.mielimg {
+
+    position: relative;
+    bottom: 63vh;
+    width: 66vh;
+    height: 55vh;
+    left: 35vh;
+}
+
+
+
+.c_img7 {
+    position: relative;
+    top: 7vh;
+    width: 68%;
+    left: 41vh;
+    height: 70vh;
+}
+
+.ppbtn {
+    position: relative;
+    left: 38%;
+    top: 20px;
 }
