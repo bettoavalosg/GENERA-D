@@ -12,6 +12,8 @@ body{
     width: 100%;
     height: 82vh;
     background-image: url(../img/f1.png);
+    background-size: cover;
+    
     
 }
 .c_todos {
@@ -198,7 +200,7 @@ position: absolute;
 top: 3vh;
 left: 53vh;
 text-align: center;
-
+margin: auto 45px auto;
 }
 
 
@@ -229,7 +231,7 @@ text-align: center;
 .contacto {
     background: white;
     height: 45vh;
-      background-image: url(../img/f1.png);
+    background-image: url(../img/f1.png);
     
 }
 .contacto1 {
@@ -267,7 +269,7 @@ top: -6vh;
 
 .text2 {
     position: relative;
-    top: 30px;
+    top: 15%;
 }
 
 .footer {
@@ -285,6 +287,7 @@ top: -6vh;
 
 .scn1 {
     position: relative;
+    top: 15vh;
    
 }
 
@@ -378,7 +381,7 @@ nav {
 
 .pst {
     position: relative;
-    left: 35%;
+    left: 30%;
     
 }
 
@@ -812,11 +815,7 @@ nav {
   width: 95%;
   max-width: 850px;
   margin: auto;
-  border-radius: 25px;
   background: white;
-  -webkit-box-shadow: 2px 1px 27px -6px rgba(112,112,112,1);
--moz-box-shadow: 2px 1px 27px -6px rgba(112,112,112,1);
-box-shadow: 2px 1px 27px -6px rgba(112,112,112,1);
   left: 33vh;
   top: 9vh;
 }
@@ -827,6 +826,7 @@ box-shadow: 2px 1px 27px -6px rgba(112,112,112,1);
   align-items: center;
   justify-content: center;
   padding: 0 25px;
+        
 }
 #imgTap:checked ~ .inner-part {
   padding: 0;
@@ -926,11 +926,11 @@ height: 8vh;
   background: gray;
 }
 .sliders{
-  position: absolute;
-bottom: 25vh;
-left: 96%;
-transform: translateX(-50%);
-z-index: 12;
+    position: absolute;
+    top: 20vh;
+    left: 125vh;
+    transform: translateX(-50%);
+    z-index: 12;
 }
 #imgTap:checked ~ .sliders{
   display: none;
@@ -1986,6 +1986,7 @@ input:-webkit-autofill {
 top: -67vh;
 left: 107vh;
 text-align: center;
+    margin: auto 45px auto;
 }
 }
 
@@ -2021,8 +2022,8 @@ font-weight: bold;
 
 .ppbtn {
     position: relative;
-    left: 38%;
-    top: 20px;
+    left: 24%;
+    top: 11vh;
 }
 
 .text11 {
@@ -2059,4 +2060,38 @@ left: 111vh;
     position: relative;
     top: 73vh;
     left: 90vh;
+}
+
+.seccion4 {
+    position: relative;
+    top: 140vh;
+}
+.seccion3 {
+    position: relative;
+    top: 55vh;
+}
+
+.pptsr {
+    position: relative;
+    top: 20vh;
+}
+
+.111 {
+    margin: auto 45px auto;
+}
+
+.pstters {
+    position: relative;
+    top: 140vh;
+}
+
+.psssttwe {
+  position: relative;
+    top: 120vh;
+    
+}
+
+.ttt1 {
+        box-shadow: 2px 1px 27px -6px rgb(112 112 112);
+    border-radius: 20px;
 }
