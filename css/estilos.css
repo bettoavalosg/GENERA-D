@@ -905,8 +905,9 @@ position: relative;
 left: 5vh;
 }
 .content button{
-  display: inline-flex;
-padding: 15px 20px;
+ 
+display: inline-flex;
+padding: 8px 36px;
 border: none;
 font-size: 16px;
 text-transform: uppercase;
@@ -919,9 +920,10 @@ outline: none;
 border: #4151E7;
 background: #4151E7;
 text-align: center;
-width: 21.5vh;
+width: 37%;
 height: 8vh;
 }
+
 .content button:hover{
   background: gray;
 }
